@@ -11,4 +11,5 @@ This repo contains everything I am learning from **Apna College’s Sigma Prime 
 ---
 
 ## 📂 Repository Structure
+- [HTML](HTML/)
 
