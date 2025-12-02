@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attribution</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <lebel for="username">Username: </lebel>
+            <input type="text" placeholder="Enter username" id="username" name="user">
+            <!--
+            type: type of input
+            placeholder: text shown when input is empty
+            id: unique identifier for the input
+            name: name of the input field used in form submission
+              -->
+        </div>
+        <div>
+            <lebel for="password">Password: </lebel>
+            <input type="password" placeholder="Enter password" id="password" name="pass">
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+</html>
