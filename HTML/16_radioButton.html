@@ -2,24 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
 </head>
 <body>
     <form action="/server">
+    <div>
+        <caption>what is your favorite fruit</caption>
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple">apple</label>
+        <input type="radio" id="banana" name="fruit" value="banana">
+        <label for="banana">banana</label>
+        <input type="radio" id="grape" name="fruit" value="grape">
+        <label for="grape">grape</label>
+        <input type="radio" id="orange" name="fruit" value="orange">
+        <label for="orange">orange</label>
+        <br/>
+        <button>sumit</button>
+        
+    </div>
+    </form>
+    <form action="/server">
         <div>
-            <h1>Which is your favorite fruit</h1>
-            <input type="radio" id="apple" name="fruit" value="apple">
-            <lable for="apple">apple</lable>
-            <input type="radio" id="orange" name="friut" value="orange">
-            <label for="orange">orange</label>
-            <input type="radio" id="banana" name="fruit" value="banana">
-            <label for="banana">banana</label>
-            <input type="radio" id="grape" name="fruit" value="grape">
-            <label for="grape">grape</label><br>
-            <button>submit</button>
+        <input type="checkbox" id="agree" name="Checkbox">
+        <label for="18">I here by Agree</label>
+        <button>sumit</button>
         </div>
     </form>
+
+
+    
 </body>
 </html>
+
+<!-- 
+<input type="radio" id="apple" name="fruit" value="apple">
+ Here, type="radio" specifies that this input is a radio button.
+ the id="apple" link with label which contain the name of this radio button.
+ the name="fruit" groups this radio button with other radio buttons that share the same name, allowing only one selection among them.
+the value="apple" defines the value that will be submitted if this radio button is selected.
+-->

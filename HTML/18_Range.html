@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <caption>volume Controler</caption>
+            <input type="range" id="vol" name="vol" min="10" max="100" step="0" value="50">
+            <lebel for="vol">Select Volume</lebel>
+        </div>
+        <button>Button</button>
+    </form>
+    
+</body>
+</html>
+<!-- Explanation:--
+
+ <input type="range" id="vol" name="vol" min="10" max="100" step="0" value="50">
+ // range type input creates a slider control for selecting a value within a specified range.
+ // id="vol" assigns a unique identifier(name showed on screen) to the input element.
+ // name="vol" specifies the name of the input element, which is used when submitting the form data to the server.
+ // min="10" sets the minimum value of the slider to 10.
+ // max="100" sets the maximum value of the slider to 100.
+ // step="0" indicates the increment/decrement value for each step of the slider (0 means no restriction on steps).
+ // value="50" sets the initial(default) value of the slider to 50 when the page loads.
+
+
+
+-->
