@@ -1,0 +1,50 @@
+/*---------ID SELECTOR IN CSS---------
+Select an element based on the value of its "id" attribute.
+
+When you using button{
+    color: white;
+    background-color: blue;
+}  //this will apply to all buttons in the page
+But if you want to apply style to only one button then you can use id selector
+You can give that button an id and use that id in css file like below
+-------------------------------------------------------------*/
+
+#login{  /*#login is the "id" of login button */
+    color: black;
+    background-color: #dddddd;
+}
+
+#signup{  /*#signup is the "id" of signup button */
+    color: white;
+    background-color: #b92b27;
+}
+
+h3,h1{
+    color:#b92b27;
+}
+
+/* ------------CLASS SELECTOR IN CSS-----------
+Select an element based on the value of its "class" attribute.
+
+When you using p{
+    font-size: 16px;
+}  //this will apply to all paragraphs in the page
+But if you want to apply style to only specific paragraphs then you can use class selector
+You can give those paragraphs a class and use that class in css file like below
+-------------------------------------------------------------*/
+
+.upvote{   /*  ".upvote is the name of the class"  */
+    color:black;
+    background-color:bisque;
+
+}
+
+/* 
+----------UNIVERSAL SELECTOR IN CSS-----------
+Selects all elements in the HTML document.
+
+When you using *{
+    margin:0;
+    padding:0;
+}  //this will apply to all elements in the page
+  -------------------------------------------------------------*/
