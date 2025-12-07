@@ -1,0 +1,31 @@
+/* A keyword added to a selector that specifies a spacial state of a selected element(s)
+1. Hover - change state when hover
+2. active - change state after click
+3. checked - Used for Radio/checkbox
+4. nth-of-type
+ */
+
+ button:hover{
+    color: black;
+    background-color: yellow;
+ }
+
+ h3:hover{
+    color:orangered;
+    text-decoration: turquoise underline;
+    
+ }
+
+ button:active{
+    background-color:olivedrab;
+ }
+
+ input[type="radio"]:checked+lebel{ /*we want to apply property on the lebel of of radio button so we add label */
+    color: brown;
+    font-weight: bold;
+ }
+
+ .post:nth-of-type(2n){
+    background-color: blanchedalmond;
+
+ }

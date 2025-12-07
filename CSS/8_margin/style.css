@@ -1,0 +1,36 @@
+/* ------------------Margin--------------
+To set spacing outside of the border
+margin-left
+margin-right
+margin-top
+margin-bottom
+
+div{
+    margin-left:10px;
+}
+*/
+
+
+div{
+    height:200px;
+    width:500px;
+    background-color:pink;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+    border-left-color:brown;
+    border-left-style:dashed;
+
+    padding:20px;
+    padding-left:40px;
+
+    margin-bottom:20px;
+    
+
+}
+
+h1{
+    border-width:5px;
+    border-style:dashed;
+    border-color:green;
+}

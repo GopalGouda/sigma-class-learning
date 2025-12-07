@@ -1,0 +1,17 @@
+/* A keyword added to the selector that lets you style a specific part of a selected elements(s)
+::first-letter- 
+::First-line
+::Selection
+*/
+
+h1::first-letter{ /*turn the first letter*/
+    color: red;
+}
+
+p::first-line{  /* turn all first line of the paragraph*/
+    color:blue;
+}
+
+p::selection{
+    color:bisque;
+}

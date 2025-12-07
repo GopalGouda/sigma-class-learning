@@ -48,3 +48,15 @@ When you using *{
     padding:0;
 }  //this will apply to all elements in the page
   -------------------------------------------------------------*/
+  
+/* --------DESCENDANT SELECTOR---------------
+This selector matches all elements that are descendants of a specified element.
+For example, to select all <span> elements inside a <div>:
+div span {
+    color: green;
+}
+This will apply the color green to all <span> elements that are inside <div> elements
+---------------------------------------------- */
+.post a{
+    color:purple;
+}

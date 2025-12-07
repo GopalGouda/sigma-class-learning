@@ -1,0 +1,63 @@
+/* -------------------SIBLING COMBINATOR----------------------- 
+sibling combinator is used to select the elements that are siblings of a specified element.
+It is represented by the plus sign (+) between two selectors.
+Example:
+h2 + p {
+    color: blue;
+}
+This will select all <p> elements that are immediately preceded by an <h2> element and apply the specified styles to them.
+--------------------------------------------------------------------*/
+p+h3{
+    color:blue;
+}
+
+/* -------------------CHILD COMBINATOR-----------------------
+child combinator is used to select elements that are direct children of a specified element.
+It is represented by the greater-than sign (>) between two selectors.
+Example:
+div > p {
+    color: green;
+}
+This will select all <p> elements that are direct children of a <div> element and apply the specified styles to them.
+--------------------------------------------------------------------*/ 
+div>p{
+    color:green;
+}
+
+/* -------------------DESCENDANT COMBINATOR-----------------------
+descendant combinator is used to select elements that are descendants of a specified element.
+It is represented by a space between two selectors.
+Example:
+section p {
+    color: red;
+}
+This will select all <p> elements that are descendants of a <section> element and apply the specified styles to them.
+--------------------------------------------------------------------*/
+
+/* -----------------------ATTRIBUTE SELECTOR-------------------------
+attribute selector is used to select elements based on the presence or value of a specific attribute.
+It is represented by square brackets [] containing the attribute name and optional value.
+Example:
+Input[type="text"] {
+    color: purple;
+}
+This will select all <input> elements with a type attribute equal to "text" and apply the specified styles to them.
+--------------------------------------------------------------------*/
+
+input[type="text"]{
+    color:purple;
+}
+
+input[type="password"]{
+    color:orange;
+}
+
+div[id="myid"] p{
+    color:blueviolet;
+}
+/* you can also write 
+#myid p{
+    color:blueviolet;
+}
+  this method will work the same  
+*/
