@@ -1,0 +1,34 @@
+/* -------------------Display------------------
+It set whether an element is treated as block or inline element and the layout used for its children
+display: inline;
+display:block */
+/* -------------------------Display Property-1: inline-------------------- 
+Inline help to place elements side by side
+*/
+h1{
+    display: inline;
+}
+
+/* ------------------------Display Property-2: blcok------------------------- 
+block help to place elements in new line
+*/
+span{
+    display: block;
+}
+
+/* ------------------------Display Property-3: inline-block ---------------------
+inline-block is a mix of inline and block. It allows to place elements side by side but also allows to set width and height
+*/
+div{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+    margin: 10px;
+    display: inline-block;
+}
+/* ----------------------Display property-4: none----------------------------------
+none helps to hide elements from the webpage
+*/
+#third{
+    display: none;
+}

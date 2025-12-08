@@ -1,0 +1,52 @@
+/* ----------------"Em"-------------------------
+"Em" is proportional to the font size of the parent element.
+
+"Em" is a relative unit in CSS that is based on the font size of the parent element.
+For example, if the parent element has a font size of 16px, then 1em equals 16px.
+if you set a child element's font size to 1.5em, it will be 24px (1.5 * 16px).
+if the parent element's font size changes, the child element's size will adjust accordingly.
+if no parent font size is specified, it defaults to the browser's default font size (usually 16px).
+--------------------------------------------*/
+
+#outer{
+    height:400px;
+    width:400px;
+    border:2px solid black;
+    background-color:lightgrey;
+    font-size:20px; /* Parent font size set to 20px */
+}
+
+#inner{
+    height:200px;
+    width:200px;
+    border:2px solid red;
+    background-color:lightblue;
+    font-size:1.5em; /* 1.5em = 1.5 * 20px = 30px *//*here Em is calculated based on the parent element's font size (20px)*/
+    /* Em help to automaticaly increase or decrease the font size based on parent font size */
+}
+
+button{
+    font-size: 20px;
+    border: 5px solid green;
+    border-radius: 15px;
+    padding-left: 1em; /* 1em = 20px (based on button's font size) */
+    padding-right: 1em; /* 1em = 20px (based on button's font size) */
+    /* So the padding will be proporional to the font size */
+}
+
+/* ------------------"Rem"--------------------------
+Rem stands for "root em" and is relative unit in CSS that is based on the font size of the root element (typically the <html> element).
+For example, if the root element has a font size of 16px, then 1rem equals 16px.
+*/
+section{
+    font-size:20px;
+}
+div{
+    font-size:2 rem;
+}
+
+/*
+Em- Relative to parent element or itself.
+Rem- Relative to root element.
+
+*/
