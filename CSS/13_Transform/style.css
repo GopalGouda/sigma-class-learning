@@ -1,0 +1,68 @@
+/*--------------CSS Transform--------------
+This property allows you to apply various transformations to HTML elements,such as rotating, scaling, skewing,
+or translating them.
+It is commonly used to create dynamic and interactive web designs. 
+1. rotate(angle): Rotates the element by the specified angle (in degrees).
+2. scale(sx, sy): Scales the element by the specified factors along the x and y axes.
+3. translate(tx, ty): Moves the element by the specified distances along the x and y axes.
+4. skew(ax, ay): Skews the element by the specified angles along the x and y axes.
+
+Example Usage:  
+transform: rotate(45deg); --> Rotates the element by 45 degrees.
+transform: scale(1.5, 1.5); --> Scales the element to 1.5 times its original size.
+transform: translate(50px, 100px); --> Moves the element 50 pixels to the right and 100 pixels down.
+transform: skew(20deg, 10deg); --> Skews the element by 20 degrees along the x-axis and 10 degrees along the y-axis.
+------------------------------------------
+ */
+
+ section{
+    margin:100px;
+ }
+ div{
+    height:50px;
+    width:200px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+ }
+ div:nth-of-type(2n){
+    background-color: orange;
+ }
+ div:nth-of-type(3n){
+    background-color: purple;
+ }
+
+ /* ----------Rotate-------------- */
+ #one{
+    transform: rotate(45deg);
+ }
+
+/* ----------Scale-------------- */
+#two{
+    transform: scale(0.5, 0.5);
+}
+
+/* ----------Translate--------------
+transform: translate(50px, 100px); --> Moves the element 50 pixels to the right and 100 pixels down.
+transform: translatex(10px);  --> Moves the element 10 pixels to the right.
+transform: translatey(10px);  --> Moves the element 10 pixels down.
+
+*/
+#three{
+    transform: translatex(50px);
+}
+
+/* ----------Skew----------------------
+skew(30deg): Skews the element by the specified angles along the x and y axes.
+skewX(10deg): Skews the element along the x-axis by the specified angle.
+skewY(10deg): Skews the element along the y-axis by the specified angle.
+
+*/
+#four{
+    transform: skew(30deg);
+}
+
+#five{
+    transform: rotate(45deg) translatex(60px) skew(45deg);
+}

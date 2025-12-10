@@ -1,0 +1,40 @@
+/* -----------------Alpha channel-----------------
+It use to set the opacity of a color.
+The value of alpha channel ranges from 0 to 1.
+0 means fully transparent and 1 means fully opaque.
+Example:
+rgba(255, 0, 0, 0.5); // Red color with 50% opacity
+
+hexadecimal notation also supports alpha channel.
+Example:
+#FF000080; // Red color with 50% opacity
+first two digits represent red, next two represent green, next two represent blue
+and last two(80) represent alpha channel.   
+-----------------------------------------------
+*/
+div{
+    height:150px;
+    width:300px;
+    background-color:rgba(0, 0, 255, 0.5); /* Blue color with 50% opacity */
+    border:5px black solid;
+    
+}
+
+/* -----------------------Opacity------------------
+sets the opacity for an element.
+The value ranges from 0 to 1.
+0 means fully transparent and 1 means fully opaque.
+Example:
+opacity: 0.5; // 50% opacity
+-----------------------------------------------
+*/
+
+#opacity{
+    background-color: orange;
+    opacity: 0.5; /* 50% opacity */
+}
+
+div:hover{
+    background-color: pink;
+}
+

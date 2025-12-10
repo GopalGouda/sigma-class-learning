@@ -1,0 +1,61 @@
+/* ----------Position--------------------
+The position property sets how an element is positioned in a document.
+The top, right, bottom, and left properties determine the final location of positioned elements.
+
+Top -     Specifies the top position of a positioned element.
+Right -   Specifies the right position of a positioned element.
+Bottom -  Specifies the bottom position of a positioned element.
+Left -    Specifies the left position of a positioned element.
+
+
+static-   The top, right, bottom, and left properties have no effect.This is default value.
+
+Relative- the offset is relative to its self based on the value of top, right, bottom, and left.
+
+Absolute- The offset is removed from the normal document flow,
+          and no space is created for the element in the page layout.
+          It is position relative to its nearest positioned ancestor if any;
+          otherwise, it is placed relative to the initial containing block.
+          
+Fixed-    The element is positioned relative to the browser window. It will not move even when the window is scrolled.
+
+-----------------------------------------------------
+*/
+
+div{
+    height:100px;
+    width:100px;
+    background-color: greenyellow;
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: lightsalmon;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+#relative{
+    background-color: lightsalmon;
+    position: relative;
+    top:100px;
+    left:100px;
+    }
+
+#absolute{
+    background-color: lightsalmon;
+    position: absolute;
+    top:100px; /*this 100px is relative to the nearest positioned ancestor(which is body here, as section don't have position here) */
+    left:100px;
+    }
+
+#fixed{
+    background-color: lightsalmon;
+    position: fixed;
+    top:100px;
+    left:100px;
+    }

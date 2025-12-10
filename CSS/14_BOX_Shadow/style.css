@@ -1,0 +1,17 @@
+/* -----------Box Shadow------------------
+it's add shadow effect arond an element's frame
+example:
+   box-shadow: 2px 5px 10px grey;
+   2px --> horizontal offset (x offset)
+   5px --> vertical offset (y offset)
+   10px --> blur radius (the higher the value, the more blurred the shadow will be)
+   grey --> shadow color (you can use any color value)
+   box-shadow: 2px 5px 10px grey inset; --> adds shadow inside the element
+------------------------------------------*/
+div{
+   height:100px;
+   width:200px;
+   margin:100px;
+   background-color: lightblue;
+   box-shadow: 5px 10px 15px grey;
+}

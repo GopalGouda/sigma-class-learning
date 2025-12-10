@@ -1,0 +1,33 @@
+/* -----------------------Transision------------------
+A transition is a way to control the speed of animation changes.
+You can specify the duration of the transition, the timing function, and the delay before the transition starts.
+Example:
+*/
+/* ------------Transition Sorthand-------------------
+Property Name | duration | timing-function | delay
+example:
+    margin-top 2s ease-in 1s;
+*/
+
+div{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    margin: 0 auto;
+    margin-top:10px;
+    transition:margin-top 2s ease-in-out 0.2s;
+    /* margin-top: the property name,
+       2s: duration,
+       ease-in-out: timing-function,
+       0.2s: delay
+     */
+}
+
+div:hover{
+    margin:400px;
+    background-color: pink;
+}
+
+
+
+
